@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "../headers/header.h"
 
 bool GameRunning = false;
@@ -5,7 +6,7 @@ int TicksLastFrame;
 player_t player;
 
 /**
- * setup_game - initialize player variables and load wall textures
+ * setup_game - player variable initialization and load wall textures
  *
 */
 
